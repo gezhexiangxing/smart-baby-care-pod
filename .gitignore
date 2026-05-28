@@ -51,5 +51,19 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
+# Local source archives extracted for porting. Do not publish raw vendor/course material.
+module_sources/
+
+# STM32CubeIDE / embedded build output
+Debug/
+Release/
+.settings/
+.metadata/
+*.launch
+*.bin
+*.list
+*.cyclo
+*.dep
+
 # debug information files
 *.dwo
